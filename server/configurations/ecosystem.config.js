@@ -1,0 +1,57 @@
+module.exports = {
+  apps : [{
+    name   : "chess_server",
+    script : "./main_express.js",
+    // cwd : "",
+    // args : "",
+    // interpreter : "",
+    // interpreter_args : "",
+    // node_args : "",
+
+    instances : -1,
+    exec_mode : "",
+    watch : true,
+    ignore_watch : [],
+    max_memory_restart : "",
+    env : {},
+    env_ : {},
+    appendEnvToName : true,
+    source_map_support : true,
+    instance_var : "",
+    filter_env : [],
+
+    log_date_format : "",
+    error_file : "",
+    out_file : "",
+    log_file : "",
+    combine_logs : true,
+    merge_logs : true, 
+    time : false ,
+    pid_file : "",
+
+    min_uptime : 0,
+    listen_timeout : 8000,
+    kill_timeout : 1600,
+    shutdown_with_message : false,
+    wait_ready : false ,
+    max_restarts : 10,
+    restart_delay : 4000,
+    cron_restart : "",
+    vizion : false,
+    post_update : [],
+    force : true,
+
+    key : "",
+    user : "",
+    host : [],
+    ssh_options : "",
+    ref : "", 
+    repo : "",
+    path : "",
+    "pre-setup" : "",
+    "post-setup" : "",
+    "pre-deploy-local" : "",
+    "post-deploy" : ""
+
+  }]
+}
